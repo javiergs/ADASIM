@@ -6,13 +6,9 @@ import org.slf4j.LoggerFactory;
 /**
  * This class is the common implementaion of the MQTT Pubisher 
  * It has implementaions for connecting, confirming connection, disconecting, and publishing data to a subscriber all using an MQTT Client
- * 
- * @author Samuel Fox Gar Kaplan
- * @author Javier Gonzalez-Sanchez
- * @author Luke Aitchison
- * @author Ethan Outangoun
  *
- * @version 2.0
+ *  @author annonymous
+ *  @version 2025
  * 
  */
 

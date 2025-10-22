@@ -14,10 +14,8 @@ import java.util.Random;
  * a client connection on a specified port and continuously sends a set of six random angles every
  * 30 seconds until the client disconnects.
  *
- * @author Reza Mousakhani
- * @author Damian Dhesi
- * @author Shiv Panchal
- * @version 2.0
+ *  @author annonymous
+ *  @version 2025
  */
 public class Publisher implements Runnable {
     private static final Logger LOGGER =

@@ -20,6 +20,8 @@ import java.net.Socket;
  * <p>
  * When running within a Thread, TheSubscriber is reading in data from the server, attaching the prefix
  * and sending it to its destination.
+ *  *  @author annonymous
+ *  *  @version 2025
  */
 public class TheSubscriber extends PropertyChangeSupport implements Runnable{
 

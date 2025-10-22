@@ -12,10 +12,8 @@ import org.slf4j.LoggerFactory;
  * messages to a `DataDestination` for processing, adding a prefix to identify the
  * source of the data.
  *
- * @author Ashton
- * @author David H.
- * @author Anthony C.
- * @version 1.0
+ *  @author annonymous
+ *  @version 2025
  */
 
 public class TheSubscriberMQTT implements Runnable, MqttCallback {

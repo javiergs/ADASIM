@@ -11,10 +11,8 @@ import java.net.Socket;
  * A publisher that connects to a TCP server and sends click position data
  * from the Blackboard.
  *
- * @version 1.2
- * @author Monish Suresh
- * @author Christine Widden
- * @author Luca Ornstil
+ *  @author annonymous
+ *  @version 2025
  */
 
 public class Publisher implements Runnable {

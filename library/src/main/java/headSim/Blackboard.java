@@ -9,10 +9,8 @@ import org.slf4j.LoggerFactory;
  * the `TrackArea`) whenever a new data point is added. This allows for real-time updates of the
  * visualization.
  *
- * @author Ashton
- * @author David H.
- * @author Anthony C.
- * @version 1.0
+ *  @author annonymous
+ *  @version 2025
  */
 public class Blackboard extends PropertyChangeSupport implements DataDestination {
 

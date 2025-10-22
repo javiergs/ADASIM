@@ -10,10 +10,8 @@ import java.util.concurrent.CountDownLatch;
  * from clients. It provides methods for starting and stopping the server and allows
  * other components to check the server's running status.
  *
- * @author Ashton
- * @author David H.
- * @author Anthony C.
- * @version 1.0
+ *  @author annonymous
+ *  @version 2025
  */
 public class Publisher implements Runnable {
 

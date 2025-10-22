@@ -8,11 +8,8 @@ import java.util.Objects;
  * mechanism to observe changes to the data. This class extends PropertyChangeSupport to
  * allow components to listen for updates.
  *
- * @author Reza Mousakhani
- * @author Damian Dhesi
- * @author Shiv Panchal
- * @author Javier Gonzalez-Sanchez
- * @version 2.0
+ *  @author annonymous
+ *  @version 2025
  */
 public class Blackboard extends PropertyChangeSupport {
 

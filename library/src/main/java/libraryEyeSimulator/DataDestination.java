@@ -4,11 +4,8 @@ package eyesimulator;
  * Interface defining methods for a data destination that receives
  * subscriber data and handles errors.
  *
- * @version 1.2
- * @authors
- * Monish Suresh
- * Christine Widden
- * Luca Ornstil
+ *  @author annonymous
+ *  @version 2025
  */
 
 public interface DataDestination {

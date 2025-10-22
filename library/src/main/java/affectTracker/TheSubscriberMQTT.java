@@ -16,6 +16,8 @@ import org.slf4j.LoggerFactory;
  * <p>
  * When running within a Thread, TheSubscriberMQTT simply waits for 'mail' from the broker
  * and processes it by adding the prefix to the message and sending it to its destination.
+ *  *  @author annonymous
+ *  *  @version 2025
  */
 public class TheSubscriberMQTT extends PropertyChangeSupport implements Runnable, MqttCallback {
 

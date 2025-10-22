@@ -6,11 +6,8 @@ import org.slf4j.LoggerFactory;
 
 /**
  * MQTTPublisher publishes messages to an MQTT topic.
- * @author Jack Ortega
- * @author Neeraja Beesetti
- * @author Saanvi Dua
- * @author Javier Gonzalez-Sanchez
- * @version 2.0
+ *  @author annonymous
+ *  @version 2025
  */
 public class MQTTPublisher {
     private static final Logger logger = LoggerFactory.getLogger(MQTTPublisher.class);

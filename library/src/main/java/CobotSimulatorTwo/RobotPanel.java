@@ -10,10 +10,8 @@ import java.awt.*;
  * movement of a robot. It listens to changes from the RobotPanelHandler's blackboard and updates the
  * robot's status accordingly.
  *
- * @author Reza Mousakhani
- * @author Damian Dhesi
- * @author Shiv Panchal
- * @version 2.0
+ *  @author annonymous
+ *  @version 2025
  */
 public class RobotPanel extends JPanel {
 

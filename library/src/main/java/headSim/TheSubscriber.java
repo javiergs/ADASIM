@@ -11,10 +11,8 @@ import java.net.Socket;
  * receives data, which it then forwards to a `DataDestination` for processing. It
  * prepends a predefined prefix to the received data to identify its source.
  *
- * @author Ashton
- * @author David H.
- * @author Anthony C.
- * @version 1.0
+ *  @author annonymous
+ *  @version 2025
  */
 public class TheSubscriber implements Runnable{
 

@@ -12,12 +12,8 @@ import java.net.Socket;
 /**
  * This class is a common implementation of a subscriber
  *
- * @author Samuel Fox Gar Kaplan
- * @author Javier Gonzalez-Sanchez
- * @author Luke Aitchison
- * @author Ethan Outangoun
- *
- * @version 2.0
+ *  @author annonymous
+ *  @version 2025
  */
 
 

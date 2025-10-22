@@ -12,10 +12,8 @@ import java.net.Socket;
  * Subscriber that connects to a TCP server, receives messages, and forwards
  * them to a DataDestination.
  *
- * @version 1.2
- * @author Monish Suresh
- * @author Christine Widden
- * @author Luca Ornstil
+ *  @author annonymous
+ *  @version 2025
  */
 
 public class Subscriber implements Runnable {

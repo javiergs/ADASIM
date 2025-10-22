@@ -4,12 +4,8 @@ import org.eclipse.paho.client.mqttv3.*;
  * This class is the common implementaion of the MQTT Subscriber 
  * 
  * It has implemnetation for establishing connections and reciving data all using an MQTT Client 
- * @author Samuel Fox Gar Kaplan
- * @author Javier Gonzalez-Sanchez
- * @author Luke Aitchison
- * @author Ethan Outangoun
- *
- * @version 2.0
+ *  @author annonymous
+ *  @version 2025
  */
 
 

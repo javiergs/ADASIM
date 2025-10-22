@@ -13,11 +13,8 @@ import java.net.Socket;
  * listens for incoming commands containing robot arm angles, parses these commands, and updates the
  * blackboard with the received angles.
  *
- * @author Reza Mousakhani
- * @author Damian Dhesi
- * @author Shiv Panchal
- * @author Javier Gonzalez-Sanchez
- * @version 1.0
+ *  @author annonymous
+ *  @version 2025
  */
 public class Subscriber implements Runnable {
     private static final Logger logger = LoggerFactory.getLogger(Subscriber.class);
