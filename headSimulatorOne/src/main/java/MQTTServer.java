@@ -1,7 +1,7 @@
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import headSimulatorOneLibrary.ThePublisherMQTT;
+import libraryHeadSimulatorOne.ThePublisherMQTT;
 
 /**
  * This class is an MQTT Server that connects to a broker and publishes point data to it

@@ -1,4 +1,7 @@
-package cobotSimulatorOneLibrary;
+package libraryCobotSimulatorOne;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -6,31 +9,30 @@ import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 /**
  * Server class that listens for incoming connections and creates a new PublisherHandler thread for each connection.
- *  @author annonymous
- *  @version 2025
+ *
+ * @author annonymous
+ * @version 2025
  */
 public class Publisher implements Runnable {
+	
 	private static final Logger logger = LoggerFactory.getLogger(Publisher.class);
 	private int port;
 	private boolean running = true;
 	private List<PublisherHandler> handlers;
-
+	
 	public Publisher(int port) {
 		this.port = port;
 		this.handlers = new ArrayList<>();
 	}
-
+	
 	public void sendMessageToAll(String encodedMessage) {
 		for (PublisherHandler handler : handlers) {
 			handler.sendEncodedMessage(encodedMessage);
 		}
 	}
-
+	
 	@Override
 	public void run() {
 		try (ServerSocket serverSocket = new ServerSocket(port)) {

@@ -1,5 +1,5 @@
-import CobotSimulatorTwo.Subscriber;
-import CobotSimulatorTwo.RobotPanelHandler;
+import libraryCobotSimulatorTwo.Subscriber;
+import libraryCobotSimulatorTwo.RobotPanelHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

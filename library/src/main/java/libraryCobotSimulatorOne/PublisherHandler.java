@@ -1,33 +1,35 @@
-package cobotSimulatorOneLibrary;
+package libraryCobotSimulatorOne;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * Handles each connection from the Publisher, sending pre-encoded data.
- *  @author annonymous
- *  @version 2025
+ *
+ * @author annonymous
+ * @version 2025
  */
 public class PublisherHandler implements Runnable {
 	private static final Logger logger = LoggerFactory.getLogger(PublisherHandler.class);
 	private Socket socket;
 	private PrintWriter out;
 	private BlockingQueue<String> messageQueue;
-
+	
 	public PublisherHandler(Socket socket) {
 		this.socket = socket;
 		this.messageQueue = new LinkedBlockingQueue<>();
 	}
-
+	
 	public void sendEncodedMessage(String encodedMessage) {
 		messageQueue.offer(encodedMessage);
 	}
-
+	
 	@Override
 	public void run() {
 		try {

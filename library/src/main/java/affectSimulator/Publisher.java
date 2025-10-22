@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.net.Socket;
 
 public class Publisher implements Runnable {
+	
     private static final Logger logger = LoggerFactory.getLogger(Publisher.class);
     private final String host;
     private final int port;

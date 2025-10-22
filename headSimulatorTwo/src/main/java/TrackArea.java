@@ -4,8 +4,8 @@ import java.awt.*;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
-import headSim.Publisher;
-import headSim.Blackboard;
+import libraryHeadSimulator.Publisher;
+import libraryHeadSimulator.Blackboard;
 
 
 /**

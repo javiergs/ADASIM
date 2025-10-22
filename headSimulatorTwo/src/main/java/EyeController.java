@@ -4,11 +4,11 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
 
-import headSim.Blackboard;
+import libraryHeadSimulator.Blackboard;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import headSim.Publisher;
+import libraryHeadSimulator.Publisher;
 
 
 /**

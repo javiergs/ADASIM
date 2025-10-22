@@ -1,5 +1,5 @@
-import cobotSimulatorOneLibrary.MQTTPublisher;
-import cobotSimulatorOneLibrary.Publisher;
+import libraryCobotSimulatorOne.MQTTPublisher;
+import libraryCobotSimulatorOne.Publisher;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

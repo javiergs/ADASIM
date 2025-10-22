@@ -1,4 +1,4 @@
-package cobotSimulatorOneLibrary;
+package libraryCobotSimulatorOne;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,8 +11,9 @@ import java.util.function.Consumer;
 
 /**
  * Client class to connect to the server and receive commands.
- *  @author annonymous
- *  @version 2025
+ *
+ * @author annonymous
+ * @version 2025
  */
 public class Subscriber implements Runnable {
 	private static final Logger logger = LoggerFactory.getLogger(Subscriber.class);
@@ -20,13 +21,13 @@ public class Subscriber implements Runnable {
 	private int port;
 	private boolean running = false;
 	private Consumer<String> messageConsumer;
-
+	
 	public Subscriber(String ip, int port, Consumer<String> messageConsumer) {
 		this.ip = ip;
 		this.port = port;
 		this.messageConsumer = messageConsumer;
 	}
-
+	
 	@Override
 	public void run() {
 		try {
@@ -48,11 +49,11 @@ public class Subscriber implements Runnable {
 			running = false;
 		}
 	}
-
+	
 	public void stop() {
 		running = false;
 	}
-
+	
 	public boolean isRunning() {
 		return running;
 	}

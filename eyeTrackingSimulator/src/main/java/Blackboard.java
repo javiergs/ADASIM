@@ -7,7 +7,7 @@ import java.beans.PropertyChangeSupport;
 import java.util.ArrayList;
 import java.util.List;
 
-import eyesimulator.DataDestination;
+import libraryEyeSimulator.DataDestination;
 
 /**
  * Singleton class representing a central storage for click positions and tracking status.

@@ -1,5 +1,5 @@
-import cobotSimulatorOneLibrary.MQTTSubscriber;
-import cobotSimulatorOneLibrary.Subscriber;
+import libraryCobotSimulatorOne.MQTTSubscriber;
+import libraryCobotSimulatorOne.Subscriber;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

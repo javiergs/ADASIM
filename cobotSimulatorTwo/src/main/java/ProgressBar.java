@@ -1,4 +1,4 @@
-import CobotSimulatorTwo.Blackboard;
+import libraryCobotSimulatorTwo.Blackboard;
 
 import javax.swing.*;
 import java.awt.*;

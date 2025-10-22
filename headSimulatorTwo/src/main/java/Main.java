@@ -4,14 +4,14 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import headSim.Blackboard;
+import libraryHeadSimulator.Blackboard;
 import org.eclipse.paho.client.mqttv3.MqttException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import headSim.Publisher;
-import headSim.TheSubscriber;
-import headSim.TheSubscriberMQTT;
+import libraryHeadSimulator.Publisher;
+import libraryHeadSimulator.TheSubscriber;
+import libraryHeadSimulator.TheSubscriberMQTT;
 
 /**
  * The `Main` class is the entry point of the eye tracking simulation application. It sets up

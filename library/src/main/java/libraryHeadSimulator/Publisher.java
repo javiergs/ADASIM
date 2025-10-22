@@ -1,4 +1,4 @@
-package headSim;
+package libraryHeadSimulator;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,21 +10,21 @@ import java.util.concurrent.CountDownLatch;
  * from clients. It provides methods for starting and stopping the server and allows
  * other components to check the server's running status.
  *
- *  @author annonymous
- *  @version 2025
+ * @author annonymous
+ * @version 2025
  */
 public class Publisher implements Runnable {
-
+	
 	private Thread serverThread;
 	private volatile boolean running = false;
 	private CountDownLatch latch = new CountDownLatch(1);
 	private static final Logger logger = LoggerFactory.getLogger(Publisher.class);
-
+	
 	/**
 	 * Initializes and starts the WebSocket server.
 	 */
 	public void run() {
-
+		
 		latch.countDown();
 		logger.info("WebSocket server started on port 8887");
 		while (running) {
@@ -35,9 +35,9 @@ public class Publisher implements Runnable {
 				running = false;
 			}
 		}
-
+		
 	}
-
+	
 	/**
 	 * Starts the server thread.
 	 */
@@ -49,7 +49,7 @@ public class Publisher implements Runnable {
 			logger.info("app.library.Server thread started.");
 		}
 	}
-
+	
 	/**
 	 * Stops the server thread.
 	 */
@@ -60,7 +60,7 @@ public class Publisher implements Runnable {
 			logger.info("app.library.Server thread stopping...");
 		}
 	}
-
+	
 	/**
 	 * Checks if the server is currently running.
 	 *
@@ -69,5 +69,5 @@ public class Publisher implements Runnable {
 	public boolean isRunning() {
 		return running;
 	}
-
+	
 }
