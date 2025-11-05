@@ -32,6 +32,12 @@ Sliders select values updates and publishes changes via MQTT (or TCP).
 <img width="166" height="92" alt="Screenshot 2025-11-05 at 12 04 14 AM" src="https://github.com/user-attachments/assets/3205f896-dbe6-464f-9d08-62ee3031b002" />
 
 
+## headSimulatorTwo
+
+<img width="912" height="712" alt="Screenshot 2025-11-05 at 12 05 28 AM" src="https://github.com/user-attachments/assets/ad627a1a-d4a7-45eb-9b71-676d54c58312" />
+<img width="134" height="108" alt="Screenshot 2025-11-05 at 12 05 32 AM" src="https://github.com/user-attachments/assets/6c1d7db1-a7a5-40d0-a5be-6fd21e4a7d8b" />
+
+
 ## affectTracker
 
 A draw panel for visualizing circles representing emotion and eye-tracking data.
