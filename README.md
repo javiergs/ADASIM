@@ -14,7 +14,7 @@ Sliders select values updates and publishes changes via MQTT (or TCP).
 <img width="211" height="130" alt="Screenshot 2025-11-04 at 11 58 03 PM" src="https://github.com/user-attachments/assets/68b81645-df20-4bd0-9160-70aa3951d020" />
 
 
-## cobotSimulatorOne
+## cobotSimulatorTwo
 
 <img width="999" height="832" alt="Screenshot 2025-11-05 at 12 00 04 AM" src="https://github.com/user-attachments/assets/cca80e68-ea6d-4baa-ba90-0a3d5badb665" />
 <img width="166" height="111" alt="Screenshot 2025-11-05 at 12 00 12 AM" src="https://github.com/user-attachments/assets/3d63007a-0eea-4b1a-b506-2f2ab5d47564" />
